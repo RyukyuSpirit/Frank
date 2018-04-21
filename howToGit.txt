@@ -1,14 +1,27 @@
-'How to GIT' 
+How to GIT (from command prompt)
+---------------------------------
 
---First time only--
+****************************************
+Initial setup
+****************************************
+--Set up project directory on your computer--
+cd Documents
+mkdir {name}            //make directory with name of your choice, for me 'fotc'
+cd {name}		//change into directory you just made
+
+--First time, linking your directory (remote) to the online repo (origin)--
 git init
+git remote add origin https://github.com/RyukyuSpirit/game1.git
+git pull origin master 		//This will copy files from our repo to your folder
 
---To add a file, locally--
-git add README.md
-git commit -m "first commit"
+****************************************
+Common actions (from within your directory made above
+****************************************
 
---To add a file, to the online repository--
-git push -u origin master
+--Add an updated file to the online repository--
+git add {filename}				//specify file being added/updated
+git commit -m "description of changes made"     //summarize changes made
+git push -u origin master			//save to online repo (origin)
 
---To pull down latest changes from the repository--
-git pull origin master 
+--To pull down latest files/changes from the repository--
+git pull origin master 				//copies files from our repo to your folder
