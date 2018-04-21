@@ -1,0 +1,11 @@
+'How to GIT' 
+
+--First time only--
+git init
+
+--To add a file, locally--
+git add README.md
+git commit -m "first commit"
+
+--To add a file, to the online repository--
+git push -u origin master
