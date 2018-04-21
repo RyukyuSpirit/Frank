@@ -5,12 +5,12 @@ How to GIT (from command prompt)
 Initial setup
 ****************************************
 --Set up project directory on your computer--
-cd Documents
+cd Documents            //change directory into the Documents directory
 mkdir {name}            //make directory with name of your choice, for me 'fotc'
 cd {name}		//change into directory you just made
 
 --First time, linking your directory (remote) to the online repo (origin)--
-git init
+git init			//prepares this directory to become a local git repo
 git remote add origin https://github.com/RyukyuSpirit/frank.git
 git pull origin master 		//This will copy files from our repo to your folder
 
