@@ -9,3 +9,6 @@ git commit -m "first commit"
 
 --To add a file, to the online repository--
 git push -u origin master
+
+--To pull down latest changes from the repository--
+git pull origin master 
